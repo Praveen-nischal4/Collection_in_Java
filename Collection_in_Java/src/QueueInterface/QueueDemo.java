@@ -14,7 +14,12 @@ public class QueueDemo {
 	}
 		
 		//retrieve elements of linkedlist
-       System.out.println(lst);
+       System.out.println("ORiginal :"+lst);
+       
+       lst.poll();
+       System.out.println("After deleted first element "+lst);
+       
+       
 	}
 
 }
