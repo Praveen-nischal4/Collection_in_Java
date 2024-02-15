@@ -4,6 +4,7 @@ import java.io.*;
 
 public class HashDemo {
 
+	
 	public static void main(String[] args) throws IOException {
 
 		HashMap<String,Long> hm = new HashMap<>();
